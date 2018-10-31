@@ -41,7 +41,7 @@ class ItemListSpec {
                                                  .widthDip(64f)
                                                  .heightDip(64f)
                                                  .placeholderImageRes(R.drawable.ic_launcher_foreground)
-                                                 .uri(Uri.parse("https://avatars2.githubusercontent.com/u/1063557?v=4"))
+                                                 .imageUrl(urlImage)
                                                  .build()
 
                                     ).child(

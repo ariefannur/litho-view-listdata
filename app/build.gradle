@@ -43,20 +43,20 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // Litho
-    implementation 'com.facebook.litho:litho-core:0.19.0'
-    implementation 'com.facebook.litho:litho-widget:0.19.0'
-    compileOnly 'com.facebook.litho:litho-annotations:0.19.0'
+    implementation 'com.facebook.litho:litho-core:0.20.0'
+    implementation 'com.facebook.litho:litho-widget:0.20.0'
+    compileOnly 'com.facebook.litho:litho-annotations:0.20.0'
 
-    kapt 'com.facebook.litho:litho-processor:0.19.0'
+    kapt 'com.facebook.litho:litho-processor:0.20.0'
 
     // SoLoader
     implementation 'com.facebook.soloader:soloader:0.5.1'
 
 
     // Sections
-    implementation 'com.facebook.litho:litho-sections-core:0.19.0'
-    implementation 'com.facebook.litho:litho-sections-widget:0.19.0'
-    compileOnly 'com.facebook.litho:litho-sections-annotations:0.19.0'
+    implementation 'com.facebook.litho:litho-sections-core:0.20.0'
+    implementation 'com.facebook.litho:litho-sections-widget:0.20.0'
+    compileOnly 'com.facebook.litho:litho-sections-annotations:0.20.0'
 
     kapt 'com.facebook.litho:litho-sections-processor:0.19.0'
     implementation 'com.github.pavlospt:litho-glide:1.5'
